@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c96caaa-2815-494d-bc6e-5eb25156626c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/activites/DateAndTimeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-416">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/SeleniumUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VyTrackUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2216">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/LoginTestPositive.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/PageAccessTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/activites/EndDateAutoAdjustTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/FleetManagementPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/LoginTestNegative.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VyTrackUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/CalendarPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/AppConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/FleetPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/GeneralPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/CalnderEventsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/smoke_tests/MenuOptionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/Pages/CalendarEventsPage.java" />
+        <option value="$PROJECT_DIR$/Testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/SeleniumUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/activites/DateAndTimeTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vytrack-automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vytrack-automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vytrack-automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vytrack-automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2178" />
+    <option name="y" value="-1" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="activites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="login_navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Cybertek/Projects/Vytrack/Vasyl" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vytrack.utilities" />
+      <recent name="com.vytrack" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FARRUKH\IdeaProjects\vytrackautomation\src\test\java\com\vytrack\Pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.DateAndTimeTest.EndDateAutoAdjustTest">
+    <configuration name="C:/Users/FARRUKH/IdeaProjects/vytrackautomation/Testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.tests.components.activites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.vytrack.tests.components.activites" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.components.activites.DateAndTimeTest" />
+      <option name="METHOD_NAME" value="EndDateAutoAdjustTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestPositive.LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.tests.components.login_navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.tests.components.login_navigation" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.components.login_navigation.LoginTestPositive" />
+      <option name="METHOD_NAME" value="LogInTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionsTest.verifyCars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.tests.smoke_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.smoke_tests.MenuOptionsTest" />
+      <option name="METHOD_NAME" value="verifyCars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageAccessTest.VehicleContractsStoreManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.tests.components.login_navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.tests.components.login_navigation" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.components.login_navigation.PageAccessTest" />
+      <option name="METHOD_NAME" value="VehicleContractsStoreManager" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/FARRUKH/IdeaProjects/vytrackautomation/Testng.xml" />
+      <item itemvalue="TestNG.DateAndTimeTest.EndDateAutoAdjustTest" />
+      <item itemvalue="TestNG.LoginTestPositive.LogInTest" />
+      <item itemvalue="TestNG.MenuOptionsTest.verifyCars" />
+      <item itemvalue="TestNG.PageAccessTest.VehicleContractsStoreManager" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DateAndTimeTest.EndDateAutoAdjustTest" />
+        <item itemvalue="TestNG.C:/Users/FARRUKH/IdeaProjects/vytrackautomation/Testng.xml" />
+        <item itemvalue="TestNG.MenuOptionsTest.verifyCars" />
+        <item itemvalue="TestNG.LoginTestPositive.LogInTest" />
+        <item itemvalue="TestNG.PageAccessTest.VehicleContractsStoreManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c96caaa-2815-494d-bc6e-5eb25156626c" name="Default Changelist" comment="" />
+      <created>1562782663271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562782663271</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 04h 13m 58s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 04h 59m 21s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 05h 02m 42s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 05h 17m 08s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 05h 31m 52s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 05h 34m 13s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_FARRUKH_IdeaProjects_vytrackautomation_Testng_xml - 2019.08.01 at 06h 39m 54s.xml">
+      <configuration name="C:/Users/FARRUKH/IdeaProjects/vytrackautomation/Testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_FARRUKH_IdeaProjects_vytrackautomation_Testng_xml - 2019.08.01 at 06h 43m 39s.xml">
+      <configuration name="C:/Users/FARRUKH/IdeaProjects/vytrackautomation/Testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 12h 31m 04s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DateAndTimeTest_EndDateAutoAdjustTest - 2019.08.01 at 15h 10m 05s.xml">
+      <configuration name="DateAndTimeTest.EndDateAutoAdjustTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27121374" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33072627" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973147" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32975295" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/gg.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/ff.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/dashboards/ff.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/FleetManagementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/AppConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/DashboardsPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/SalesPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/CustomersPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/FleetPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/CalendarPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/ActivitiesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/GeneralPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/SystemPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/smoke_tests/MenuOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4446">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/CalendarEventsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/Screenshots/1564653761521" />
+    <entry file="file://$PROJECT_DIR$/test-output/Screenshots/1564654627061.png" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/PageAccessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/LoginTestPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/login_navigation/LoginTestNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VyTrackUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2216">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/SeleniumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/activites/DateAndTimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vytrackautomation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
