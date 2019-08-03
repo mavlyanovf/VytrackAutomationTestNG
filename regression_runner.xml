@@ -1,10 +1,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Vytrack regression test suite">
     <test name="Regression">
+<classes>
+    <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive"></class>
+    <class name="com.vytrack.tests.components.activites.DateAndTimeTest"></class>
+    <class name="com.vytrack.tests.components.login_navigation.LoginTestNegative"></class>
 
-    <packages>
-        <package name=".*"/>
-    </packages>
+</classes>
+
+<!--    <packages>-->
+<!--        <package name=".*"/>-->
+<!--    </packages>-->
 
 
     </test>

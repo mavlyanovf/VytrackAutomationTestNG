@@ -65,40 +65,40 @@ public class TestBase {
 //
 ////         //ITestresult describes the result of a test.
 ////    //we can determine if test failed, passed or ignored
-//    @AfterMethod
-//    public void teardown(ITestResult result){
-//        if(ITestResult.FAILURE == result.getStatus()) {
-//           //if test failed get a screenshot and save the location to the image
-//            String pathToTheScreenshot = SeleniumUtils.getScreenshot(result.getName());
-//
-//            // capture the name of a test method that failed
-//            extentLogger.fail(result.getName());
-//            try {
-//                //to add screenshot into report
-//                extentLogger.addScreenCaptureFromPath(pathToTheScreenshot);
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//            //to add thrown exception into report
-//            extentLogger.fail(result.getThrowable());
-//        }else if(result.getStatus() == ITestResult.SKIP){
-//            //if test skipped, this information will appear on the report
-//            extentLogger.skip("Test case skipped "+result.getName());
-//        }
-//        Driver.closeDriver();
-//    }
+    @AfterMethod (alwaysRun = true)
+    public void teardown(ITestResult result){
+        if(ITestResult.FAILURE == result.getStatus()) {
+           //if test failed get a screenshot and save the location to the image
+            String pathToTheScreenshot = SeleniumUtils.getScreenshot(result.getName());
 
-
-@AfterMethod (alwaysRun = true)
-public void tearDwon(ITestResult result) throws  IOException{
-        if (result.getStatus()==ITestResult.FAILURE){
-         String temp=   SeleniumUtils.getScreenShot(driver);
-         htmlReporter.config().setAutoCreateRelativePathMedia(true);
-         extentLogger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+            // capture the name of a test method that failed
+            extentLogger.fail(result.getName());
+            try {
+                //to add screenshot into report
+                extentLogger.addScreenCaptureFromPath(pathToTheScreenshot);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            //to add thrown exception into report
+            extentLogger.fail(result.getThrowable());
+        }else if(result.getStatus() == ITestResult.SKIP){
+            //if test skipped, this information will appear on the report
+            extentLogger.skip("Test case skipped "+result.getName());
         }
-        report.flush();
         Driver.closeDriver();
-}
+    }
+
+
+//@AfterMethod (alwaysRun = true)
+//public void tearDwon(ITestResult result) throws  IOException{
+//        if (result.getStatus()==ITestResult.FAILURE){
+//         String temp=   SeleniumUtils.getScreenShot(driver);
+//         htmlReporter.config().setAutoCreateRelativePathMedia(true);
+//         extentLogger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+//        }
+//        report.flush();
+//        Driver.closeDriver();
+//}
 
 
 

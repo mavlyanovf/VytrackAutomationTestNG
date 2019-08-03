@@ -298,7 +298,7 @@ public class SeleniumUtils {
      *
      * @param element
      */
-    public void waitForStaleElement(WebElement element) {
+    public static void waitForStaleElement(WebElement element) {
         int y = 0;
         while (y <= 15) {
             if (y == 1)
@@ -426,12 +426,13 @@ public class SeleniumUtils {
      */
     public static String getScreenshot(String name)  {
         // name the screenshot with the current date time to avoid duplicate name
-        String date = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_hh:mm:ss a"));
+        String date = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy_MM_dd_hh_mm_ss"));
+//        String date = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_hh:mm:ss a")); //this is wrong format for windows users
         // TakesScreenshot ---> interface from selenium which takes screenshots
         TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
         // full path to the screenshot location
-        String target = System.getProperty("user.dir") + "\\test-output\\Screenshots\\" + name + date + ".png";
+        String target = System.getProperty("user.dir") + "\\test-output\\Screenshots\\"+ name+ date+ ".png";
         File finalDestination = new File(target);
         // save the screenshot to the path given
         try {
@@ -443,20 +444,52 @@ public class SeleniumUtils {
     }
 
 
-    public static String getScreenShot(WebDriver driver){
-        TakesScreenshot ts=(TakesScreenshot)driver;
-        File src=ts.getScreenshotAs(OutputType.FILE);
-        String path=System.getProperty("user.dir")+"\\test-output\\Screenshots\\"+System.currentTimeMillis()+".png";
-        File destination =new File(path);
-        try
-        {
-            FileUtils.copyFile(src, destination);
-        }catch (IOException e){
-            System.out.println("Capture failed "+e.getMessage());
+//    public static String getScreenShot(WebDriver driver){
+//        TakesScreenshot ts=(TakesScreenshot)driver;
+//        File src=ts.getScreenshotAs(OutputType.FILE);
+//        String path=System.getProperty("user.dir")+"\\test-output\\Screenshots\\"+System.currentTimeMillis()+".png";
+//        File destination =new File(path);
+//        try
+//        {
+//            FileUtils.copyFile(src, destination);
+//        }catch (IOException e){
+//            System.out.println("Capture failed "+e.getMessage());
+//        }
+//        return path;
+//    }
+
+
+
+ /* Method to generate a random string of length n
+   @param int n
+    @return String
+
+  */
+   public static String getRandomPassword(int n)
+    {
+
+        // chose a Character random from this String
+        String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                + "0123456789"
+                + "abcdefghijklmnopqrstuvxyz";
+
+        // create StringBuffer size of AlphaNumericString
+        StringBuilder sb = new StringBuilder(n);
+
+        for (int i = 0; i < n; i++) {
+
+            // generate a random number between
+            // 0 to AlphaNumericString variable length
+            int index
+                    = (int)(AlphaNumericString.length()
+                    * Math.random());
+
+            // add Character one by one in end of sb
+            sb.append(AlphaNumericString
+                    .charAt(index));
         }
-        return path;
+
+        return sb.toString();
     }
-
-
 
 }
