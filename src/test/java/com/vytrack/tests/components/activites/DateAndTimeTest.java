@@ -37,23 +37,23 @@ public class DateAndTimeTest extends TestBase {
      */
 
 
-    @Test (groups ="regression")
+    @Test (priority = 3, groups ="regression")
     public void EndDateAutoAdjustTest(){
 //creat new test and give the name of the test for each @Test method
-//        extentLogger=report.createTest("Vytrack Date and Time test");
+  extentLogger=report.createTest("Vytrack Date and Time test");
 
-//     extentLogger.info("Log in");
+     extentLogger.info("Log in");
  //  1. Log in as Valid user
     pages.login().login("storemanager");
 //   2. Go to Activities -> Calendar Events
     VyTrackUtils.navigateToModule("Activities", "Calendar Events");
 
-//    extentLogger.info("Creating new Calendar event");
+    extentLogger.info("Creating new Calendar event");
     //   3. Click on create new calendar event
     SeleniumUtils.clickWithWait(pages.calendars().createCalendarEvent, 5);
     VyTrackUtils.waitUntilLoaderScreenDisappear(driver);
 
-//    extentLogger.info("Changing date to future date");
+    extentLogger.info("Changing date to future date");
     //  4. Change the start date to future date
     WebElement startDate=pages.calendars().startDateLocator;
     SeleniumUtils.clickWithWait(startDate,5);
@@ -62,7 +62,7 @@ public class DateAndTimeTest extends TestBase {
     SeleniumUtils.waitForVisibility(pages.calendars().endDateLocator, 10);
     Select select=new Select(pages.calendars().endMonthLocator);
 
-//    extentLogger.info("Verifying that end date changed to the same date");
+    extentLogger.info("Verifying that end date changed to the same date");
     //   5. Verify that end date changes to the same date
     String endDate=select.getFirstSelectedOption().getText();
     SeleniumUtils.waitForVisibility(pages.calendars().endDayLocator, 10);
@@ -70,7 +70,7 @@ public class DateAndTimeTest extends TestBase {
         System.out.println("End date: "+endDate+" future date: "+futureDate);
     Assert.assertEquals(endDate, futureDate);
 
-//        extentLogger.info("Changing back to current date");
+        extentLogger.info("Changing back to current date");
     //  6. Change back the start date to today’s date
     SeleniumUtils.waitForVisibility(pages.calendars().startDateLocator, 10);
     SeleniumUtils.doubleClick(pages.calendars().startDateLocator);
@@ -91,9 +91,9 @@ public class DateAndTimeTest extends TestBase {
 
 System.out.println("today's date :"+ todayDate+ " current date: "+currentEndDate);
 
-// extentLogger.info("Verifying that end date changed back to current date");
+ extentLogger.info("Verifying that end date changed back to current date");
  Assert.assertEquals(todayDate, currentEndDate);
-//extentLogger.pass("Passed all test");
+extentLogger.pass("Date sync test pass");
 
 
 
