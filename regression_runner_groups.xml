@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vytrack regression Tests">
+    <test name="Regression by groups">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+<classes>
+<class name="com.vytrack.tests.components.activites.DateAndTimeTest"></class>
+    <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive"></class>
+</classes>
+
+    </test>
+
+</suite>

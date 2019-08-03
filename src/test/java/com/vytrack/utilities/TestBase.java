@@ -34,7 +34,7 @@ public class TestBase {
  protected static ExtentHtmlReporter htmlReporter;
     protected static ExtentTest extentLogger;
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void setUpMethod (){
         driver=Driver.getDriver();
         pages=new Pages();
@@ -89,7 +89,7 @@ public class TestBase {
 //    }
 
 
-@AfterMethod
+@AfterMethod (alwaysRun = true)
 public void tearDwon(ITestResult result) throws  IOException{
         if (result.getStatus()==ITestResult.FAILURE){
          String temp=   SeleniumUtils.getScreenShot(driver);
@@ -102,7 +102,7 @@ public void tearDwon(ITestResult result) throws  IOException{
 
 
 
-   @BeforeTest
+   @BeforeTest(alwaysRun = true)
     public void setUpTest() {
         //initialize ExtentReporter
         report = new ExtentReports();
@@ -138,7 +138,7 @@ public void tearDwon(ITestResult result) throws  IOException{
 
     }
 
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     public void tearDownTest() {
 
         report.flush();

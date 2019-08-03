@@ -63,7 +63,7 @@ public class LoginTestPositive {
             Library.sleep(3);
             driver.quit();
         }
-@Test
+@Test (groups="regression")
     public void LogInTest(){
         String expectedPageName="";
     String expectedName="";

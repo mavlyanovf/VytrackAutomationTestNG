@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vytrack regression test suite">
+    <test name="Regression">
+
+    <packages>
+        <package name=".*"/>
+    </packages>
+
+
+    </test>
+
+</suite>
