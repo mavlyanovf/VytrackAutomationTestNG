@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.vytrack.tests.components.activites.DateAndTimeTest">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDwon"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+          <include name="EndDateAutoAdjustTest"/>
+        </methods>
+      </class> <!-- com.vytrack.tests.components.activites.DateAndTimeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-02T04:37:23Z" name="Suite" finished-at="2019-08-02T04:40:26Z" duration-ms="182466">
+    <groups>
+    </groups>
+    <test started-at="2019-08-02T04:37:23Z" name="Test" finished-at="2019-08-02T04:40:26Z" duration-ms="182466">
+      <class name="com.vytrack.tests.components.activites.DateAndTimeTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.vytrack.tests.components.activites.DateAndTimeTest@358c99f5]" started-at="2019-08-02T04:37:23Z" name="setUpTest" finished-at="2019-08-02T04:37:23Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.vytrack.tests.components.activites.DateAndTimeTest@358c99f5]" started-at="2019-08-02T04:37:23Z" name="setUpMethod" finished-at="2019-08-02T04:37:29Z" duration-ms="5477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="EndDateAutoAdjustTest()[pri:0, instance:com.vytrack.tests.components.activites.DateAndTimeTest@358c99f5]" started-at="2019-08-02T04:37:29Z" name="EndDateAutoAdjustTest" finished-at="2019-08-02T04:37:44Z" duration-ms="15382" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Aug 1, 2018] but found [Aug 1, 2019]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Aug 1, 2018] but found [Aug 1, 2019]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.vytrack.tests.components.activites.DateAndTimeTest.EndDateAutoAdjustTest(DateAndTimeTest.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDateAutoAdjustTest -->
+        <test-method is-config="true" signature="tearDwon(org.testng.ITestResult)[pri:0, instance:com.vytrack.tests.components.activites.DateAndTimeTest@358c99f5]" started-at="2019-08-02T04:37:44Z" name="tearDwon" finished-at="2019-08-02T04:37:46Z" duration-ms="1532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EndDateAutoAdjustTest status=FAILURE method=DateAndTimeTest.EndDateAutoAdjustTest()[pri:0, instance:com.vytrack.tests.components.activites.DateAndTimeTest@358c99f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.vytrack.tests.components.activites.DateAndTimeTest@358c99f5]" started-at="2019-08-02T04:40:25Z" name="tearDownTest" finished-at="2019-08-02T04:40:26Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.vytrack.tests.components.activites.DateAndTimeTest -->
+      <class name="com.vytrack.tests.components.login_navigation.PageAccessTest">
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.vytrack.tests.components.login_navigation.PageAccessTest@48524010]" started-at="2019-08-02T04:39:11Z" name="beforMethod" finished-at="2019-08-02T04:39:18Z" duration-ms="7250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="VehicleContractsStoreManager()[pri:0, instance:com.vytrack.tests.components.login_navigation.PageAccessTest@48524010]" started-at="2019-08-02T04:39:18Z" name="VehicleContractsStoreManager" finished-at="2019-08-02T04:40:22Z" duration-ms="63672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleContractsStoreManager -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vytrack.tests.components.login_navigation.PageAccessTest@48524010]" started-at="2019-08-02T04:40:22Z" name="afterMethod" finished-at="2019-08-02T04:40:25Z" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.vytrack.tests.components.login_navigation.PageAccessTest -->
+      <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive">
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.vytrack.tests.components.login_navigation.LoginTestPositive@3ee0fea4]" started-at="2019-08-02T04:37:46Z" name="beforMethod" finished-at="2019-08-02T04:37:53Z" duration-ms="7407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="LogInTest()[pri:0, instance:com.vytrack.tests.components.login_navigation.LoginTestPositive@3ee0fea4]" started-at="2019-08-02T04:37:53Z" name="LogInTest" finished-at="2019-08-02T04:39:07Z" duration-ms="73820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vytrack.tests.components.login_navigation.LoginTestPositive@3ee0fea4]" started-at="2019-08-02T04:39:07Z" name="afterMethod" finished-at="2019-08-02T04:39:11Z" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.vytrack.tests.components.login_navigation.LoginTestPositive -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
