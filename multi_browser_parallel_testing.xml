@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vytrack multi browser Tests" verbose="2"
+parallel="tests" thread-count="2">
+
+
+
+    <test name="Multi browser using Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive"/>
+        </classes>
+
+    </test>
+
+    <test name="Multi browser using Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive"/>
+        </classes>
+
+    </test>
+
+
+
+</suite>

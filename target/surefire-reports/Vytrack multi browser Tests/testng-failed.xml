@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Vytrack multi browser Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Multi browser using Chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDwon"/>
+          <include name="LogInSalesManagerTest"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+          <include name="LogInDriverTest"/>
+        </methods>
+      </class> <!-- com.vytrack.tests.components.login_navigation.LoginTestPositive -->
+    </classes>
+  </test> <!-- Multi browser using Chrome(failed) -->
+  <test thread-count="2" parallel="tests" name="Multi browser using Firefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.vytrack.tests.components.login_navigation.LoginTestPositive">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDwon"/>
+          <include name="LogInSalesManagerTest"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+          <include name="LogInDriverTest"/>
+        </methods>
+      </class> <!-- com.vytrack.tests.components.login_navigation.LoginTestPositive -->
+    </classes>
+  </test> <!-- Multi browser using Firefox(failed) -->
+</suite> <!-- Failed suite [Vytrack multi browser Tests] -->

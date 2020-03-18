@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vytrack smoke test suite">
+    <test name="Login smoke test">
+
+<classes>
+    <class name=""></class>
+</classes>
+
+
+    </test>
+
+
+</suite>

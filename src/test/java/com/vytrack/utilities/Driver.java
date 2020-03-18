@@ -17,9 +17,13 @@ public class Driver {
     private Driver(){}
 
 
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver(String browser){
         if (driver==null){
-            String browser = ConfigurationReader.getProperty("browser");
+       /*first we check if the value from xml file is null or not
+       if the value from xml file NOT null we use its value
+        if the value from xml file IS null, we get the browser value from properties file
+        */
+       browser= browser==null? ConfigurationReader.getProperty("browser") : browser;
 
             switch (browser) {
                 case "chrome":
@@ -69,6 +73,9 @@ public class Driver {
 //        if it was initialized before if statement will be ignored and will return same driver
         return driver;
     }
+
+    public static WebDriver getDriver(){
+        return  getDriver(null);}
 
     //    since previous method does not close the object we should create new method that quits
 //    from driver and makes it equal to null

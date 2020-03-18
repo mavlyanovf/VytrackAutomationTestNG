@@ -1,129 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="183.53" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="123.288" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.specification.version" value="12"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\FARRUKH\IdeaProjects\vytrackautomation\target\test-classes;C:\Users\FARRUKH\IdeaProjects\vytrackautomation\target\classes;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\FARRUKH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\FARRUKH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\FARRUKH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\FARRUKH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\FARRUKH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\FARRUKH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\FARRUKH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\FARRUKH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\FARRUKH\.m2\repository\io\github\bonigarcia\webdrivermanager\3.6.1\webdrivermanager-3.6.1.jar;C:\Users\FARRUKH\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\FARRUKH\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\FARRUKH\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\FARRUKH\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\FARRUKH\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\FARRUKH\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\FARRUKH\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\FARRUKH\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\FARRUKH\.m2\repository\com\github\javafaker\javafaker\0.2\javafaker-0.2.jar;C:\Users\FARRUKH\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\FARRUKH\.m2\repository\org\jyaml\jyaml\1.3\jyaml-1.3.jar;C:\Users\FARRUKH\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\FARRUKH\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\FARRUKH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\FARRUKH\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\FARRUKH\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\FARRUKH\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\FARRUKH\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\FARRUKH\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\FARRUKH\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\FARRUKH\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\FARRUKH\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\FARRUKH\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\FARRUKH\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="12"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\FARRUKH\AppData\Local\Temp\surefire6727170475268594852\surefirebooter9459081733977706864.jar C:\Users\FARRUKH\AppData\Local\Temp\surefire6727170475268594852 2019-08-01T23-37-18_872-jvmRun1 surefire6700144206267069535tmp surefire_014902019638291315791tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\FARRUKH\AppData\Local\Temp\surefire5773906184939119460\surefirebooter4375714566644268468.jar C:\Users\FARRUKH\AppData\Local\Temp\surefire5773906184939119460 2020-02-24T12-00-06_190-jvmRun1 surefire6903635390318477079tmp surefire_017885945897397084901tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\FARRUKH\IdeaProjects\vytrackautomation\target\test-classes;C:\Users\FARRUKH\IdeaProjects\vytrackautomation\target\classes;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\FARRUKH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\FARRUKH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\FARRUKH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\FARRUKH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\FARRUKH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\FARRUKH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\FARRUKH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\FARRUKH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\FARRUKH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\FARRUKH\.m2\repository\io\github\bonigarcia\webdrivermanager\3.6.1\webdrivermanager-3.6.1.jar;C:\Users\FARRUKH\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\FARRUKH\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\FARRUKH\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\FARRUKH\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\FARRUKH\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\FARRUKH\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\FARRUKH\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\FARRUKH\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\FARRUKH\.m2\repository\com\github\javafaker\javafaker\0.2\javafaker-0.2.jar;C:\Users\FARRUKH\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\FARRUKH\.m2\repository\org\jyaml\jyaml\1.3\jyaml-1.3.jar;C:\Users\FARRUKH\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\FARRUKH\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\FARRUKH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\FARRUKH\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\FARRUKH\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\FARRUKH\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\FARRUKH\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\FARRUKH\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\FARRUKH\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\FARRUKH\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\FARRUKH\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\FARRUKH\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\FARRUKH\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\FARRUKH\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\FARRUKH"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-04-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.1"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\FARRUKH\IdeaProjects\vytrackautomation"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\FARRUKH\AppData\Local\Temp\surefire6727170475268594852\surefirebooter9459081733977706864.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FARRUKH\AppData\Local\Temp\surefire5773906184939119460\surefirebooter4375714566644268468.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
     <property name="user.name" value="FARRUKH"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="C:\Users\FARRUKH\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\FARRUKH\AppData\Local\Temp\"/>
-    <property name="java.version" value="12.0.1"/>
+    <property name="java.version" value="11.0.4"/>
     <property name="user.dir" value="C:\Users\FARRUKH\IdeaProjects\vytrackautomation"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.1\bin;C:\Windows\System32;C:\Users\FARRUKH\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_201\bin;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11.0.4\bin;C:\app\FARRUKH\virtual\product\12.2.0\dbhome_1\bin;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;C:\Users\FARRUKH\android sdk\platform-tools;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Windows\System32;C:\Users\FARRUKH\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.4\bin;C:\Users\FARRUKH\AppData\Roaming\npm;C:\Users\FARRUKH\.dotnet\tools;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="56.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="EndDateAutoAdjustTest" classname="com.vytrack.tests.components.activites.DateAndTimeTest" time="15.388">
-    <failure message="expected [Aug 1, 2018] but found [Aug 1, 2019]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Aug 1, 2018] but found [Aug 1, 2019]
-	at com.vytrack.tests.components.activites.DateAndTimeTest.EndDateAutoAdjustTest(DateAndTimeTest.java:95)
+  <testcase name="LogInStoreManagerTest" classname="com.vytrack.tests.components.login_navigation.LoginTestPositive" time="27.294"/>
+  <testcase name="LogInSalesManagerTest" classname="com.vytrack.tests.components.login_navigation.LoginTestPositive" time="30.035"/>
+  <testcase name="LogInDriverTest" classname="com.vytrack.tests.components.login_navigation.LoginTestPositive" time="22.226"/>
+  <testcase name="EndDateAutoAdjustTest" classname="com.vytrack.tests.components.activites.DateAndTimeTest" time="12.37"/>
+  <testcase name="LogInTestNegative" classname="com.vytrack.tests.components.login_navigation.LoginTestNegative" time="1.02">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.vytrack.tests.components.login_navigation.LoginTestNegative.LogInTestNegative(LoginTestNegative.java:27)
 </failure>
-    <system-out><![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="title title-level-1">...</span> is not clickable at point (439, 56). Other element would receive the click: <div class="loader-mask shown">...</div>
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PM9V0CS', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\FARRUKH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a5a5a95c34b664243001515772fa6ab
-Attempt :: 1
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="title title-level-1">...</span> is not clickable at point (439, 56). Other element would receive the click: <div class="loader-mask shown">...</div>
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PM9V0CS', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\FARRUKH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a5a5a95c34b664243001515772fa6ab
-Attempt :: 2
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/calendar/event/create" class="btn main-group btn-primary pull-right " title="Create Calendar event">...</a> is not clickable at point (1794, 137). Other element would receive the click: <div class="loader-mask shown">...</div>
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PM9V0CS', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\FARRUKH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a5a5a95c34b664243001515772fa6ab
-Attempt :: 1
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/calendar/event/create" class="btn main-group btn-primary pull-right " title="Create Calendar event">...</a> is not clickable at point (1794, 137). Other element would receive the click: <div class="loader-mask shown">...</div>
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PM9V0CS', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\FARRUKH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a5a5a95c34b664243001515772fa6ab
-Attempt :: 2
-java.lang.NumberFormatException: null :: Loader mask doesn't present.
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input placeholder="Choose a date" id="date_selector_oro_calendar_event_form_start-uid-5d43be15061af" name="date_selector_oro_calendar_event_form_start-uid-5d43be15061af" class="input-small datepicker-input start hasDatepicker" data-validation="{&quot;Date&quot;:{},&quot;NotBlank&quot;:{}}" type="text" data-fake-front-field=""> is not clickable at point (1174, 231). Other element would receive the click: <div class="loader-mask shown">...</div>
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PM9V0CS', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\FARRUKH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a5a5a95c34b664243001515772fa6ab
-Attempt :: 1
-End date: Aug 25, 2019 future date: Aug 25, 2019
-java.lang.NumberFormatException: null :: Loader mask doesn't present.
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input placeholder="Choose a date" id="date_selector_oro_calendar_event_form_end-uid-5d43be15062ad" name="date_selector_oro_calendar_event_form_end-uid-5d43be15062ad" class="input-small datepicker-input end hasDatepicker" data-validation="{&quot;Date&quot;:{},&quot;NotBlank&quot;:{}}" type="text" data-fake-front-field="" aria-invalid="false"> is not clickable at point (1165, 271). Other element would receive the click: <select class="ui-datepicker-month" data-handler="selectMonth" data-event="change">...</select>
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PM9V0CS', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\FARRUKH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a5a5a95c34b664243001515772fa6ab
-Attempt :: 1
-today's date :Aug 1, 2019 current date: Aug 1, 2018
-]]></system-out>
-    <system-err><![CDATA[458 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 75.0.3770.8 (since Google Chrome 75 is installed in your machine)
-470 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\FARRUKH\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
-Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 35801
+    <system-err><![CDATA[115774 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+115774 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\FARRUKH\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 6379
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Aug 01, 2019 11:37:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 24, 2020 12:02:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1582567328.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582567329.744][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="LogInTest" classname="com.vytrack.tests.components.login_navigation.LoginTestPositive" time="73.821"/>
-  <testcase name="VehicleContractsStoreManager" classname="com.vytrack.tests.components.login_navigation.PageAccessTest" time="63.672"/>
 </testsuite>

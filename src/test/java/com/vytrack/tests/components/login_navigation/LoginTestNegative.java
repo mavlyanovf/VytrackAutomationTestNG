@@ -19,7 +19,7 @@ public class LoginTestNegative extends TestBase {
 
 
     @Test (priority = 4, groups = "regression")
-    public void LogInTestNegative(){
+        public void LogInTestNegative(){
     extentLogger=report.createTest("Negative Login test");
     pages.login().login("storemanager", SeleniumUtils.getRandomPassword(8));
     String message=pages.login().InvalidLoginMessageLocator.getText();

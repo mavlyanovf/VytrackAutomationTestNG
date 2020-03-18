@@ -46,7 +46,6 @@ public class LoginPage {
     @CacheLookup
     public WebElement logoutDropDownButtonLocator;
 
-
     @FindBy(xpath = "//a[contains(text(), 'Logout')]")
     @CacheLookup
     public WebElement logOutButtonLocator;

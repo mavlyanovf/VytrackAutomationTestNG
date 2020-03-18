@@ -57,7 +57,7 @@ public class DateAndTimeTest extends TestBase {
     //  4. Change the start date to future date
     WebElement startDate=pages.calendars().startDateLocator;
     SeleniumUtils.clickWithWait(startDate,5);
-    String futureDate="Aug 25, 2019";
+    String futureDate="Aug 25, 2020";
     startDate.clear(); startDate.sendKeys(futureDate, Keys.TAB, Keys.TAB);
     SeleniumUtils.waitForVisibility(pages.calendars().endDateLocator, 10);
     Select select=new Select(pages.calendars().endMonthLocator);
@@ -66,7 +66,7 @@ public class DateAndTimeTest extends TestBase {
     //   5. Verify that end date changes to the same date
     String endDate=select.getFirstSelectedOption().getText();
     SeleniumUtils.waitForVisibility(pages.calendars().endDayLocator, 10);
-    endDate=endDate.concat(" "+pages.calendars().endDayLocator.getText()+", 2019");
+    endDate=endDate.concat(" "+pages.calendars().endDayLocator.getText()+", 2020");
         System.out.println("End date: "+endDate+" future date: "+futureDate);
     Assert.assertEquals(endDate, futureDate);
 
@@ -86,7 +86,7 @@ public class DateAndTimeTest extends TestBase {
         SeleniumUtils.waitForVisibility(pages.calendars().endMonthLocator, 15);
 
 //    SeleniumUtils.waitForVisibility(pages.calendars().endDayLocator2, 15);
-    String currentEndDate=select.getFirstSelectedOption().getText()+" "+pages.calendars().endDayLocator2.getText()+", 2019";
+    String currentEndDate=select.getFirstSelectedOption().getText()+" "+pages.calendars().endDayLocator2.getText()+", 2020";
 
 
 System.out.println("today's date :"+ todayDate+ " current date: "+currentEndDate);
